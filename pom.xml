@@ -12,7 +12,7 @@
     <artifactId>generate-report</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>sales-report</name>
-    <description>sales-report</description>
+    <description>jasper-openpdf</description>
     <url/>
     <licenses>
         <license/>

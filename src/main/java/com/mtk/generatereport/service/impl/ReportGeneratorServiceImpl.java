@@ -21,7 +21,7 @@ public class ReportGeneratorServiceImpl implements ReportGeneratorService
 	@Override
 	public String report(ReportRequest request)
 	{
-		ReportGeneratorStrategy factory = reportGeneratorFactory.create(request.type());
-		return factory.generateReport(request.data().getMessage());
+		ReportGeneratorStrategy strategy = reportGeneratorFactory.create(request.type());
+		return strategy.generateReport(request.data().getMessage());
 	}
 }
